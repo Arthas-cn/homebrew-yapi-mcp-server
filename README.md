@@ -1,23 +1,33 @@
 # homebrew-yapi-mcp-server
 
-Homebrew Tap for Yapi MCP Server
-
 ## 安装
+
+使用 Homebrew 安装：
 
 ```bash
 brew tap Arthas-cn/homebrew-yapi-mcp-server
 brew install yapi-mcp-server
 ```
 
-## 更新
+## 使用
 
 ```bash
-brew upgrade yapi-mcp-server
+yapi-mcp-server --help
 ```
 
-## 卸载
-
-```bash
-brew uninstall yapi-mcp-server
-brew untap Arthas-cn/homebrew-yapi-mcp-server
+## Cursor
+```json
+"YapiMCPServer": {
+      "type": "stdio",
+      "command": "yapi-mcp-server",
+      "args": [
+        "stdio",
+        "--base-url",
+        "https://you.host.cn",
+        "--email",
+        "youeamil@gmail.com",
+        "--password",
+        "xxxx"
+      ]
+    }
 ```
