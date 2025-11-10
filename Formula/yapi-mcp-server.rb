@@ -7,9 +7,9 @@
 class YapiMcpServer < Formula
   desc "Yapi MCP Server - Swift实现的Yapi MCP工具"
   homepage "https://github.com/Arthas-cn/yapi-mcp-server-releases"
-  url "https://github.com/Arthas-cn/yapi-mcp-server-releases/releases/download/v1.0.0/YapiMCPServer-macos.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
-  version "1.0.0"
+  url "https://github.com/Arthas-cn/yapi-mcp-server-releases/releases/download/v1.0.1/YapiMCPServer-macos.tar.gz"
+  sha256 "998b66c9fba46bbbdcd4e84081a4477104465f73216e8c4bbe4eaa89341f3591"
+  version "1.0.1"
   
   depends_on :macos
   
